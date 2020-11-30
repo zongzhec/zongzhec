@@ -14,9 +14,26 @@ For Bio in English version, click here.
 
 ![Stats](https://github-readme-stats.vercel.app/api?username=zongzhec)
 
-![Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=zongzhec&hide=ipynb,html&layout=compact)
-
 # 主要代码仓库 #
+
+## 技术相关 ##
+
+### ZongzheUtils ###
+
+在日常的生活中，每个人都会形成自己的编程习惯：从一个特定文档的巧妙读入，到一个个性化的格式输出；从改写某些特定累的方法，到直接自定义某些数据类型……与其一遍又一遍的重复劳动，不如逐步开始建立自己的方法库。
+
+[ZongzheUtil的项目地址](https://github.com/zongzhec/ZongzheUtils)
+
+
+### 技术知识学习笔记 ###
+
+吾生也有涯，而知也无涯。学习如逆水行舟，不进则退。
+
+1. [Hadoop-学习笔记 项目地址](https://github.com/zongzhec/HadoopPractise)
+2. [JabaWeb-学习笔记 项目地址](https://github.com/zongzhec/JavaWebPractise)
+3. [算法与数据结构-学习笔记 项目地址](https://github.com/zongzhec/AlgoPractise)
+4. [LeetCode-学习笔记 项目地址](https://github.com/zongzhec/LeetCodePractise)
+
 
 ## 金融相关 ##
 
@@ -47,3 +64,19 @@ Fix协议作为常用的交易标准协议，在金融领域有着广泛的应�
 1. [指数基金的收益真有这么高？（一）](https://zhuanlan.zhihu.com/p/31784811)
 2. [指数基金的收益真有这么高？（二）](https://zhuanlan.zhihu.com/p/31784892)
 3. [指数基金的收益真有这么高？（三）](https://zhuanlan.zhihu.com/p/85442189)
+
+
+### 金融知识学习笔记 ###
+
+除了技术知识，我也会研究一些金融知识，以求在遇到问题时“知其然，也知其所以然”。
+
+[证券从业资格-学习笔记 项目地址](https://github.com/zongzhec/SAC-Learning-Notes)
+
+[金融风险管理师（FRM）-学习笔记 项目地址](https://github.com/zongzhec/FRM-Learning-Notes)
+
+
+## 随便玩玩 ##
+
+1. [模拟洗车过后，一般会在第几天下雨 项目地址](https://github.com/zongzhec/WashCar)
+2. [模拟自走棋阵容，怎样能搭配出最多的buff 项目地址](https://github.com/zongzhec/Autochess)
+
