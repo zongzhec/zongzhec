@@ -1,4 +1,13 @@
-### Hi there 👋
+# Zongzhe's Page
+
+For Bio in English version, click here.
+
+欢迎来到Zongzhe的主页，本人以Java为主要编程语言，解决金融领域和生活上的一些问题。
+
+#总体数据展示：
+[https://github-readme-stats.vercel.app/api?username=zongzhec](https://github-readme-stats.vercel.app/api?username=zongzhec "Stats")
+
+[https://github-readme-stats.vercel.app/api/top-langs/?username=zongzhec&hide=ipynb,html&layout=compact](https://github-readme-stats.vercel.app/api/top-langs/?username=zongzhec&hide=ipynb,html&layout=compact "Lang")
 
 
 **zongzhec/zongzhec** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
