@@ -2,7 +2,7 @@
 
 For Bio in English version, click here.
 
-欢迎来到Zongzhe的主页，本人以Java为主要编程语言，解决金融领域和生活上的一些问题。
+欢迎来到Zongzhe的主页，本人以**Java**为主要编程语言，解决**金融领域**和生活上的一些问题。
 
 # 个人信息 #
 - CSDN主页：[粽子的CSDN主页](https://blog.csdn.net/zongziczz)
@@ -36,3 +36,14 @@ Fix协议作为常用的交易标准协议，在金融领域有着广泛的应�
 6. [QuickFix Java 讲解（六）常见的错误类型和解决办法](https://blog.csdn.net/zongziczz/article/details/109674905)
 
 
+### 指数基金 ###
+
+近年来，指数基金一直受到人们的追捧，“投资是否能超过指数”也成了大众热议的话题。本项目从代码出发，真实模拟了定投指数基金后的走势和收益情况，并对其中的现象进行观察和解释。
+
+[指数基金项目地址](https://github.com/zongzhec/indexProfit)
+
+相关博客：
+
+1. [指数基金的收益真有这么高？（一）](https://zhuanlan.zhihu.com/p/31784811)
+2. [指数基金的收益真有这么高？（二）](https://zhuanlan.zhihu.com/p/31784892)
+3. [指数基金的收益真有这么高？（三）](https://zhuanlan.zhihu.com/p/85442189)
