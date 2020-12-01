@@ -1,111 +1,79 @@
-# theme: jekyll-theme-edition
+# ----
+# Site
 
-# ---------------- #
-#   Main Configs   #
-# ---------------- #
+title: Edition Template
+url: "https://long-pig.cloudvent.net"
 baseurl:
-url: https://zongzhec.github.io/zongzhec/
-date_format: "ordinal"
-title: 粽园
-subtitle: "Zongzhe's Page"
-description: "粽子的个人博客"
-keywords: 粽子, Zongzhe, zongzhec, 九粽
-timezone: Asia/Shanghai
-encoding: "utf-8"
-side_bar_repo_limit: 5
-repository: zongzhec/zongzhec.github.io
-# 对 css 和 js 资源的 cdn 加速配置
-cdn:
-    jsdelivr:
-        enabled: true
-# 组件配置
-components:
-    # 分享
-    share:
-        enabled: false
-    # 不蒜子访问统计
-    busuanzi:
-        enabled: true
-        start_date: 2020-05-03
-# 压缩页面内容
-compress_html:
-  clippings: all
-  comments: ["<!--", "-->"]
-# 文章字数统计
-word_count:
-    enabled: true
-# 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
-highlight_theme: github
+google_analytics_key:
+show_full_navigation: true
 
-# ---------------- #
-#      Author      #
-# ---------------- #
-author: Zongzhe Chen
-organization: 
-organization_url: 
-github_username: zongzhec
-location: Shanghai, China
-email: zongzhe_chen@sina.com
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Product documentation template for Jekyll.
+author:
+  name:
+  email:
+  twitter: # twitter username without the @ symbol
+social:
+  name: Edition Template
+  links:
+    - https://github.com/CloudCannon/edition-jekyll-template
 
-# ---------------- #
-#    Navigation    #
-# ---------------- #
-navs:
-  -
-    href: /
-    label: 首页
+# -----
+# Build
 
-  -
-    href: /categories/
-    label: 分类
+timezone: Etc/UTC
 
-#   -
-#     href: /archives/
-#     label: 归档
+permalink: pretty
 
-#   -
-#     href: /open-source/
-#     label: 开源
-
-  -
-    href: /wiki/
-    label: 维基
-
-  -
-    href: /links/
-    label: 链接
-
-  -
-    href: /about/
-    label: 关于
-
-# ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
-
-# ---------------- #
-#      Jekyll      #
-# ---------------- #
-markdown: kramdown
-kramdown:
-    input: GFM
-highlighter: rouge
-paginate: 10
-lsi: false
-quiet: false
-excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
 plugins:
-    - jekyll-github-metadata
-    - rouge
-#     - jekyll-html-pipeline
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-feed
-    - jemoji
-#     - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
 collections:
-    wiki:
-        output: true
-        permalink: /wiki/:path/
+  docs:
+    title: Documentation
+    permalink: /:path/
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "docs"
+    values:
+      seo:
+        type: Article
+      _comments:
+        category: Group navigation links with this field
+        order: Used to sort links in the navigation
+      _options:
+        content:
+          width: 800
+          height: 2000
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      _comments:
+        type: Marks the impact of this release
+
+# -----------
+# CloudCannon
+
+types:
+  - minor
+  - major
