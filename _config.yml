@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Edition Template
-url: "https://long-pig.cloudvent.net"
+title: Zongzhe's Page
+url: "https://zongzhec.github.io/zongzhec/"
 baseurl:
 google_analytics_key:
 show_full_navigation: true
@@ -11,8 +11,8 @@ show_full_navigation: true
 logo: /siteicon.png
 description: Product documentation template for Jekyll.
 author:
-  name:
-  email:
+  name: zongzhec
+  email: zongzhe_chen@sina.com
   twitter: # twitter username without the @ symbol
 social:
   name: Edition Template
